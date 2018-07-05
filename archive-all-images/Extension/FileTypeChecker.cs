@@ -5,6 +5,10 @@ using System.Linq;
 
 namespace archive_all_images.Extension
 {
+    // Quoted from stackoverflow
+    // But because of head, forgot to mark the link
+    // If you find, please help me
+    // Link: 
     public class FileTypeChecker
     {
         private static readonly IList<FileType> knownFileTypes = new List<FileType>

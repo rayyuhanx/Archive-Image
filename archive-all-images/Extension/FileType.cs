@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace archive_all_images.Extension
 {
+    // Quoted from stackoverflow
+    // But because of head, forgot to mark the link
+    // If you find, please help me
+    // Link: 
     public class FileType
     {
         private static readonly FileType unknown = new FileType("unknown", string.Empty, new byte?[0]);
